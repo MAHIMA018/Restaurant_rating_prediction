@@ -33,14 +33,14 @@ def predict():
         votes  = request.form['votes'] 
         rest_type=request.form['rest_type']
         if (rest_type=="Casual Dining"):
-            rest_type = 0
+            rest_type = 1
         else:
-            rest_type=1
+            rest_type=0
         dish_liked = request.form['dish_liked']
         if (dish_liked=="Masala Dosa"):
-            dish_liked=0
-        else:
             dish_liked=1
+        else:
+            dish_liked=0
         cuisine = request.form['cuisines']
         if (cuisine=='North Indian'):
             cuisine = 1
