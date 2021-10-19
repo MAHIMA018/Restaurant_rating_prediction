@@ -10,13 +10,13 @@ import pickle
 
 app = Flask(__name__)
 model = pickle.load(open('rf.pkl', 'rb'))
-@app.route('/',methods=['GET'])
+@app.route('/',methods=['GET','POST'])
 def Home():
     return render_template('index1.html')
 
 
 
-@app.route("/predict", methods=['POST'])
+@app.route("/predict", methods=['GET',POST'])
 def predict():
     
     if request.method == 'POST':
