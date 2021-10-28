@@ -9,11 +9,11 @@ https://predict-restaurant-rating.herokuapp.com/predict
 https://youtu.be/baBSIxsYRQI
 
 ## Technical aspect:
-Python 3.7
-Front-end: HTML, CSS
-Back-end: Flask
-IDE: Jupyter Notebook, Vscode
-Deployment: Heroku
+-Python 3.7
+-Front-end: HTML, CSS
+-Back-end: Flask
+-IDE: Jupyter Notebook, Vscode
+-Deployment: Heroku
 
 ## Workflow
 ## Data Collection:
